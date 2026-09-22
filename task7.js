@@ -8,11 +8,11 @@ const arr = [
   
   arr[0].push(10);
   console.log(arr[0]);
-
+  
   arr.push([30, 31, 32, 33, 34, 35, 36, 37, 38, 39]);
   console.log(arr);
 
-  arr[1].shift();
+  arr[1].splice(0, 1);
   console.log(arr[1]);
 
   arr[3].reverse();
